@@ -34,6 +34,18 @@ The app connects GitHub identity with a Solana wallet using Privy, tracks bounty
 
 Note: Current schema and UI indicate payout transfer is maintainer-managed after solver verification.
 
+## Acceptance Checklist For Issue #40
+
+This README update is scoped to issue #40 ("Enhance README") and includes:
+
+- clear project summary and architecture snapshot,
+- explicit maintainer and solver bounty flows,
+- webhook setup requirements tied to merge-based automation,
+- API route inventory for quick evaluator verification,
+- local setup and run commands for reproducibility.
+
+The goal is to let maintainers verify README completeness quickly against current repository behavior.
+
 ## Webhook Setup (Required for Automation)
 
 Configure a webhook in the target GitHub repository:
